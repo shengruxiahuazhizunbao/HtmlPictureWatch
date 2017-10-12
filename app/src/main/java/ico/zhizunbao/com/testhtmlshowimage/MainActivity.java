@@ -33,6 +33,8 @@ import pub.devrel.easypermissions.EasyPermissions;
  *
  */
 //远程修改，本地下载
+//再次修改，再次提交
+
 public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks{
 
     public final static String webUrl="http://www.ukanmi.com/jingdianyul/id_499.html";
