@@ -32,7 +32,7 @@ import pub.devrel.easypermissions.EasyPermissions;
  * 同时计算出该图片在所有图片中的位置，传递给大图界面，进行浏览缩放。
  *
  */
-//增加
+//远程修改，本地下载
 public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks{
 
     public final static String webUrl="http://www.ukanmi.com/jingdianyul/id_499.html";
