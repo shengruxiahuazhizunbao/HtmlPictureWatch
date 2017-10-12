@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
@@ -27,14 +26,13 @@ import cn.bingoogolapple.photopicker.activity.BGAPhotoPreviewActivity;
 import pub.devrel.easypermissions.AfterPermissionGranted;
 import pub.devrel.easypermissions.EasyPermissions;
 
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
-
 /**
  * 运用Jsoup获取网页的里面所有的图片（不能获取JS里面动态的图片）
  * 通过java 和Js来代码，通过点击网页上面的图片进行交互，jsoup拿到所有的图片的集合之后，获取当前点击的图片，
  * 同时计算出该图片在所有图片中的位置，传递给大图界面，进行浏览缩放。
  *
  */
+//增加
 public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks{
 
     public final static String webUrl="http://www.ukanmi.com/jingdianyul/id_499.html";
